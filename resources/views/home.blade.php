@@ -17,12 +17,12 @@
 
     <title>CV Athahira: LPK Multimedia dan LKP Parenting</title>
 </head>
-<body class="">
+<body class="dark:bg-neutral-900 bg-white">
     @include('layouts.navigation')
-    <div class="py-12 px-4 md:px-0">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="p-6 text-gray-900 dark:text-gray-100">
+    <div class="w-full min-h-screen flex items-center justify-center">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 w-full">
+            <div class="bg-white dark:bg-neutral-800 overflow-hidden shadow-sm w-full rounded-lg">
+                <div class="p-6 text-neutral-900 dark:text-neutral-100">
                     {{ __("You're logged in!") }}
                 </div>
             </div>
