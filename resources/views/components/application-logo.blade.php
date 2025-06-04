@@ -1,0 +1,1 @@
+<img {{ $attributes }} src="{{ asset('storage/assets/logo-athahira.png') }}" alt="logo">
